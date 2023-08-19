@@ -33,8 +33,17 @@ docker rm nginx_container
 ```
 ![image](https://github.com/zahydakhan/docker-networking-assignment2-part1/assets/45081511/f4de5637-2cee-4a6e-bd84-5f460ac4e673)
 
-### Step 8: Stop and remove the "nginx_container" container.
-### Step 9: Stop and remove the "nginx_container" container.
-### Step 10: Stop and remove the "nginx_container" container.
+### Step 8: Create a new Docker container "nginx_container_2" using the "nginx" image and connect it to the "my_network" network.
+
+
+### Step 9: Verify that the "nginx" default page is accessible on your host machine at http://localhost:8082.
+
+### Step 10: Use the "docker container ls" command to display information about all running containers. Document your findings in the README.md file.
+
+### Step 11: Stop and remove all containers.
+
+### Step 12: Cleanup: Remove the "my_network" network.
+
+
 
 
