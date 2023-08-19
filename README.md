@@ -46,11 +46,23 @@ docker run -d --name nginx_container_2 --network my_network -p 8082:80 nginx
 ![image](https://github.com/zahydakhan/docker-networking-assignment2-part1/assets/45081511/3d453de8-4631-4fc7-b934-74d0e121c946)
 
 ### Step 10: Use the "docker container ls" command to display information about all running containers. Document your findings in the README.md file.
+![image](https://github.com/zahydakhan/docker-networking-assignment2-part1/assets/45081511/7fa2aca8-8563-4cae-8add-6934af9bd839)
 
 ### Step 11: Stop and remove all containers.
+```
+docker stop nginx_container_2
+docker rm nginx_container_2
+docker stop httpd_container
+docker rm httpd_container
+```
+![image](https://github.com/zahydakhan/docker-networking-assignment2-part1/assets/45081511/a4a1d798-241a-4634-abc7-a314c5256afb)
 
 ### Step 12: Cleanup: Remove the "my_network" network.
+```
+docker network rm my_network
+```
+![image](https://github.com/zahydakhan/docker-networking-assignment2-part1/assets/45081511/92d2390d-de07-477e-8d1a-74e61c2646ba)
 
-
-
+### Step 12: Cleanup: Remove the "my_network" network.
+### Step 12: Cleanup: Remove the "my_network" network.
 
