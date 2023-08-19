@@ -63,6 +63,5 @@ docker network rm my_network
 ```
 ![image](https://github.com/zahydakhan/docker-networking-assignment2-part1/assets/45081511/92d2390d-de07-477e-8d1a-74e61c2646ba)
 
-### Step 12: Cleanup: Remove the "my_network" network.
-### Step 12: Cleanup: Remove the "my_network" network.
-
+### Step 13: Done: Create a README.md file and document your findings for each command.
+### Step 14: Pushed the codebase
